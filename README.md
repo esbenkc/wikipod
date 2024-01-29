@@ -10,6 +10,8 @@ See a few examples here:
 - [Event horizon](https://kran.ai/wikipod/Event_horizon) &ndash; don't expect events in the horizon for this one.
 - [Spacetime](https://kran.ai/wikipod/Spacetime) &ndash; you thought they were separate? Think again...
 
+_Just a 3h experiment, you are very welcome to build on top of it_
+
 ## Getting started
 
 Create a `.secret` file with your OpenAI API key and your Eleven Labs API key:
