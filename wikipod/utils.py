@@ -78,7 +78,7 @@ def get_random_wiki_article():
     return dict
 
 
-def gpt4_clean_content(dict):
+def oai_clean_content(dict, model="gpt-4"):
     """
     Cleans the content of a Wikipedia page.
     :param content: The content to clean.
@@ -110,7 +110,7 @@ def gpt4_clean_content(dict):
         api_key=read_api_key(".secret", "OPENAI_API_KEY"),
     )
     response = client.chat.completions.create(
-        model="gpt-4",
+        model=model,
         messages=[
             {
                 "role": "system",
@@ -169,7 +169,7 @@ def manual_clean_content(dict):
     return content
 
 
-def generate_audio(content, file_name):
+def generate_audio(content, file_name, voice_id="UdScy37AbDCrWZuRANDL"):
     """
     Reads the content of a Wikipedia page using the ElevenT Labs API.
     :param dict: The dictionary containing the content of the page.
@@ -178,7 +178,7 @@ def generate_audio(content, file_name):
     import requests
 
     CHUNK_SIZE = 1024
-    url = "https://api.elevenlabs.io/v1/text-to-speech/UdScy37AbDCrWZuRANDL"
+    url = "https://api.elevenlabs.io/v1/text-to-speech/" + voice_id
     # Esben CEO: UdScy37AbDCrWZuRANDL
     # Joanne: pZUH6e3t8ERpSXkrg4I1
 
