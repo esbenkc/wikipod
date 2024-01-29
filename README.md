@@ -1,4 +1,4 @@
-<img align="left" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" width="150">
+<img align="left" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" width="200">
 
 # The WikiPod
 
@@ -7,8 +7,8 @@ The WikiPod is the easiest way for you to generate podcast episodes out of your 
 See a few examples here:
 
 - [Black holes](https://kran.ai/wikipod/Black_hole) &ndash; you won't be able to escape this topic's gravitational pull!
-- [Event horizon](https://kran.ai/wikipod/Event_horizon) &ndash; don't expect events in the horizon for this one...
-- [Spacetime](https://kran.ai/wikipod/Spacetime) &ndash; you thought they were separate? think again
+- [Event horizon](https://kran.ai/wikipod/Event_horizon) &ndash; don't expect events in the horizon for this one.
+- [Spacetime](https://kran.ai/wikipod/Spacetime) &ndash; you thought they were separate? Think again...
 
 ## Getting started
 
