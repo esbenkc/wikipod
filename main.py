@@ -30,7 +30,7 @@ if __name__ == "__main__":
         default="UdScy37AbDCrWZuRANDL",
     )
     parser.add_argument(
-        "-m", "--model", required=False, help="GPT model to use", default="gpt4"
+        "-m", "--model", required=False, help="GPT model to use", default="gpt-4"
     )
     parser.add_argument(
         "-p",
@@ -43,4 +43,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    main(args.voice_id, args.model, args.pages)
+    main(
+        args.voice_id,
+        args.pages,
+        args.model,
+    )
